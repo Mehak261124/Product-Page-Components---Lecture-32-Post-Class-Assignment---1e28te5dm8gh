@@ -25,6 +25,8 @@ code {
   width: 100vw;
   display: flex;
   text-align: left;
+  margin-left: 15%;
+  flex-direction: column;
 }
 
 .image-div {
@@ -32,6 +34,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 20%;
 }
 .headphone-image {
   height: 200px;
@@ -41,7 +44,7 @@ code {
 }
 
 .product-description {
-  border: 1px solid #ddd;
+  border: 1px solid black;
   border-radius: 4px;
   padding: 5px;
   margin-top: 20px;
@@ -70,3 +73,12 @@ code {
   padding: 10px;
   text-align: left;
 }
+
+.heading{
+  text-align: center;
+}
+
+.product{
+  display: flex;
+}
+

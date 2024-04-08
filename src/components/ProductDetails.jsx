@@ -1,14 +1,16 @@
 const ProductDetails = () => {
   return (
+    <>
+    <div className="product">
     <div class="image-div">
-      <img
+      <img className="headphone-image"
         src="https://d3dyfaf3iutrxo.cloudfront.net/general/upload/9d86047095e74d6eb7346aa6f0b94954.jpg"
         alt="headphones image"
         class="headphone-image"
       />
     </div>
-    <div>
-      <h4>SoundCloud One</h4>
+    <div className="product-details">
+      <h4 >SoundCloud One</h4>
       <ul>
         <li>40 hrs battery life</li>
         <li>Volt charge</li>
@@ -16,6 +18,8 @@ const ProductDetails = () => {
         <li>Soft silicon ear cushions</li>
       </ul>
     </div>
+    </div>
+    </>
   );
 };
 
